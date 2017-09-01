@@ -1,0 +1,2 @@
+Aplicação Rest API utilizando WebAPI C# com Entity Framework, IoC com Unity e SimpleInjector, AutoMapper e AngularJs.
+Os arquivos Html e Js se encontram em "appWebAPIClient.Api" dentro da pasta "View".
