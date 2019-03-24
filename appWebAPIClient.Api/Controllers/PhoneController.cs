@@ -1,6 +1,6 @@
-﻿using appWebAPIClient.Api.Models;
-using appWebAPIClient.Domain.Models;
+﻿using appWebAPIClient.Domain.Models;
 using appWebAPIClient.Service.Services.Interfaces;
+using appWebAPIClient.Service.ViewModels;
 using AutoMapper;
 using System;
 using System.Collections.Generic;

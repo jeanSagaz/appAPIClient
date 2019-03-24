@@ -1,6 +1,6 @@
-﻿using appWebAPIClient.Api.ViewModels.Account;
-using appWebAPIClient.Common.Resources;
+﻿using appWebAPIClient.Common.Resources;
 using appWebAPIClient.Service.Interfaces;
+using appWebAPIClient.Service.ViewModels.Account;
 using System;
 using System.Net;
 using System.Net.Http;

@@ -8,6 +8,7 @@ using System.Web.Http;
 
 namespace appWebAPIClient.Api.Controllers
 {
+    [RoutePrefix("api/user")]
     public class UserController : ApiController
     {
         private readonly IUserAppService _service;

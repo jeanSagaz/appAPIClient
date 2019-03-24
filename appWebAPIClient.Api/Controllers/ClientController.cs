@@ -1,6 +1,7 @@
-﻿using appWebAPIClient.Api.Models;
-using appWebAPIClient.Domain.Models;
+﻿using appWebAPIClient.Domain.Models;
+using appWebAPIClient.Service.Log;
 using appWebAPIClient.Service.Services.Interfaces;
+using appWebAPIClient.Service.ViewModels;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -16,10 +17,13 @@ namespace appWebAPIClient.Api.Controllers
     [RoutePrefix("api/clients")]
     public class ClientController : ApiController
     {
-        private IClientAppService _service;
+        private readonly CreateLogFiles _log;
+        private readonly IClientAppService _service;
+
         public ClientController(IClientAppService service)
         {
             this._service = service;
+            this._log = new CreateLogFiles();
         }
 
         [Route("getClients")]
@@ -124,7 +128,9 @@ namespace appWebAPIClient.Api.Controllers
             HttpResponseMessage response = new HttpResponseMessage();
 
             try
-            {
+            {                
+                _log.Log("Método \"PutClient\"", clientViewModel);
+
                 var client = Mapper.Map<ClientViewModel, Client>(clientViewModel);
                 _service.UpdateClient(client);
 

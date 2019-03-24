@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\publish\app-webClient-api</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Api.dll">
+      <publishTime>03/24/2019 13:54:32</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Api.pdb">
+      <publishTime>03/24/2019 13:54:32</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Application.dll">
+      <publishTime>03/24/2019 13:54:31</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Application.dll.config">
+      <publishTime>03/24/2019 13:12:11</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Application.pdb">
+      <publishTime>03/24/2019 13:54:31</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Common.dll">
+      <publishTime>03/24/2019 12:44:49</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Common.pdb">
+      <publishTime>03/24/2019 12:44:49</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Domain.dll">
+      <publishTime>03/24/2019 12:44:50</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Domain.dll.config">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Domain.pdb">
+      <publishTime>03/24/2019 12:44:50</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Infrastructure.dll">
+      <publishTime>03/24/2019 12:44:50</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Infrastructure.dll.config">
+      <publishTime>03/14/2019 23:24:04</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Infrastructure.pdb">
+      <publishTime>03/24/2019 12:44:50</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Service.dll">
+      <publishTime>03/24/2019 13:54:31</publishTime>
+    </File>
+    <File Include="bin/appWebAPIClient.Service.pdb">
+      <publishTime>03/24/2019 13:54:31</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/Ionic.ZLib.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Cors.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.pdb">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.Schema.dll">
+      <publishTime>03/24/2018 09:21:22</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/pt-BR/appWebAPIClient.Common.resources.dll">
+      <publishTime>03/24/2019 12:44:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/SimpleInjector.dll">
+      <publishTime>06/04/2017 01:08:32</publishTime>
+    </File>
+    <File Include="bin/SimpleInjector.Extensions.ExecutionContextScoping.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/SimpleInjector.Integration.WebApi.dll">
+      <publishTime>06/04/2017 01:09:04</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Owin.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/WebActivator.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/21/2016 14:16:20</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/24/2019 13:48:10</publishTime>
+    </File>
+    <File Include="Views/css/style.css">
+      <publishTime>08/26/2017 23:22:16</publishTime>
+    </File>
+    <File Include="Views/Index.html">
+      <publishTime>08/26/2017 23:30:28</publishTime>
+    </File>
+    <File Include="Views/js/app.js">
+      <publishTime>08/26/2017 23:27:00</publishTime>
+    </File>
+    <File Include="Views/js/controllers/clientCreateCtrl.js">
+      <publishTime>08/26/2017 23:22:52</publishTime>
+    </File>
+    <File Include="Views/js/controllers/clientEditCtrl.js">
+      <publishTime>08/26/2017 23:22:53</publishTime>
+    </File>
+    <File Include="Views/js/controllers/clientIndexCtrl.js">
+      <publishTime>08/26/2017 23:22:55</publishTime>
+    </File>
+    <File Include="Views/js/controllers/login/loginUserCtrl.js">
+      <publishTime>10/02/2018 22:37:53</publishTime>
+    </File>
+    <File Include="Views/js/controllers/phoneCreateCtrl.js">
+      <publishTime>08/26/2017 23:22:55</publishTime>
+    </File>
+    <File Include="Views/js/controllers/phoneEditCtrl.js">
+      <publishTime>08/26/2017 23:22:55</publishTime>
+    </File>
+    <File Include="Views/js/controllers/phoneIndexCtrl.js">
+      <publishTime>08/26/2017 23:22:55</publishTime>
+    </File>
+    <File Include="Views/js/controllers/user/userCreateCtrl.js">
+      <publishTime>03/24/2019 10:44:21</publishTime>
+    </File>
+    <File Include="Views/js/services/clientAPIService.js">
+      <publishTime>08/26/2017 23:25:59</publishTime>
+    </File>
+    <File Include="Views/js/services/login/loginAPIService.js">
+      <publishTime>08/26/2017 23:25:30</publishTime>
+    </File>
+    <File Include="Views/js/services/phoneAPIService.js">
+      <publishTime>08/26/2017 23:26:00</publishTime>
+    </File>
+    <File Include="Views/js/services/showErrorService.js">
+      <publishTime>08/26/2017 23:26:01</publishTime>
+    </File>
+    <File Include="Views/js/services/tokenAPIService.js">
+      <publishTime>08/26/2017 23:26:01</publishTime>
+    </File>
+    <File Include="Views/js/services/user/userAPIService.js">
+      <publishTime>08/27/2017 00:40:11</publishTime>
+    </File>
+    <File Include="Views/js/value/configValue.js">
+      <publishTime>03/24/2019 10:40:18</publishTime>
+    </File>
+    <File Include="Views/view/Client/Create.html">
+      <publishTime>08/26/2017 23:28:49</publishTime>
+    </File>
+    <File Include="Views/view/Client/Edit.html">
+      <publishTime>08/26/2017 23:28:50</publishTime>
+    </File>
+    <File Include="Views/view/Client/Index.html">
+      <publishTime>08/26/2017 23:28:51</publishTime>
+    </File>
+    <File Include="Views/view/Login/Index.html">
+      <publishTime>08/27/2017 00:31:11</publishTime>
+    </File>
+    <File Include="Views/view/Phone/Create.html">
+      <publishTime>08/26/2017 23:29:14</publishTime>
+    </File>
+    <File Include="Views/view/Phone/Edit.html">
+      <publishTime>08/26/2017 23:29:14</publishTime>
+    </File>
+    <File Include="Views/view/Phone/Index.html">
+      <publishTime>08/26/2017 23:29:15</publishTime>
+    </File>
+    <File Include="Views/view/User/Create.html">
+      <publishTime>08/26/2017 23:29:24</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/24/2019 13:54:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

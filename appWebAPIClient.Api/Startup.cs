@@ -1,7 +1,7 @@
-﻿using appWebAPIClient.Api.AutoMapper;
-using appWebAPIClient.Api.Helpers;
+﻿using appWebAPIClient.Api.Helpers;
 using appWebAPIClient.Api.Security;
 using appWebAPIClient.Application;
+using appWebAPIClient.Service.AutoMapper;
 using appWebAPIClient.Service.Interfaces;
 using Microsoft.Owin;
 using Microsoft.Owin.Cors;

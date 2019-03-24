@@ -1,0 +1,11 @@
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\bin\Release\appWebAPIClient.Domain.dll.config
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\bin\Release\appWebAPIClient.Domain.dll
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\bin\Release\appWebAPIClient.Domain.pdb
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\bin\Release\appWebAPIClient.Common.dll
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\bin\Release\appWebAPIClient.Common.pdb
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\bin\Release\pt-BR\appWebAPIClient.Common.resources.dll
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\obj\Release\appWebAPIClient.Domain.csprojAssemblyReference.cache
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\obj\Release\appWebAPIClient.Domain.csproj.CoreCompileInputs.cache
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\obj\Release\appWebAPIClient.Domain.csproj.CopyComplete
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\obj\Release\appWebAPIClient.Domain.dll
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Domain\obj\Release\appWebAPIClient.Domain.pdb

@@ -1,0 +1,48 @@
+﻿<div class="col-xs-12">
+    <div class="row">
+        <div class="page-header"><h1>Lista de Clientes</h1></div>
+    </div>
+
+    <div class="row">
+        <a href="#/newClient">Novo Cliente</a>
+    </div>
+
+    <div class="row">
+        <div class="bg-danger validationErrors" ng-show="validationErrors">
+            <ul>
+                <li ng-repeat="error in validationErrors">{{error}}</li>
+            </ul>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>CPF</th>
+                        <th>Endereço</th>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Estado Civil</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="client in clients">
+                        <td>{{client.clientId}}</td>
+                        <td>{{client.cpf}}</td>
+                        <td>{{client.address}}</td>
+                        <td>{{client.name}}</td>
+                        <td>{{client.email}}</td>
+                        <td>{{maritalStatus(client.maritalStatus)}}</td>
+                        <td>
+                            <a href="#/editClient/{{client.clientId}}">Editar</a> |
+                            <a href="#/Phones/{{client.clientId}}">Telefone</a> |
+                            <a ng-click="deleteClient(client.clientId)">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

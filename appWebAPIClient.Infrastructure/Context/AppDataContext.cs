@@ -7,7 +7,7 @@ namespace appWebAPIClient.Infrastructure.Context
 {
     public class AppDataContext : DbContext
     {
-        public AppDataContext() : base("appWebAPIClientBD")
+        public AppDataContext() : base("name=appWebAPIClientBD")
         {
             Configuration.LazyLoadingEnabled = false;
             Configuration.ProxyCreationEnabled = false;

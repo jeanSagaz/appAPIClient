@@ -1,0 +1,13 @@
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\bin\Release\appWebAPIClient.Common.dll
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\bin\Release\appWebAPIClient.Common.pdb
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\bin\Release\pt-BR\appWebAPIClient.Common.resources.dll
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\appWebAPIClient.Common.csprojAssemblyReference.cache
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\appWebAPIClient.Common.Resources.Errors.resources
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\appWebAPIClient.Common.Resources.Messages.resources
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\appWebAPIClient.Common.Resources.Errors.pt-BR.resources
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\appWebAPIClient.Common.Resources.Messages.pt-BR.resources
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\appWebAPIClient.Common.csproj.GenerateResource.cache
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\appWebAPIClient.Common.csproj.CoreCompileInputs.cache
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\pt-BR\appWebAPIClient.Common.resources.dll
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\appWebAPIClient.Common.dll
+E:\Codigos\NET\Framework\Web\appWebAPIClient\appWebAPIClient.Common\obj\Release\appWebAPIClient.Common.pdb
